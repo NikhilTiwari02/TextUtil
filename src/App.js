@@ -42,7 +42,7 @@ function App() {
 {/* renders the first one that matches the current URL. */}
           {/* if path is /about render the about part */}
           <Routes>
-          <Route path="/"
+          <Route path="/Textutil"
         element={<Textform heading="Enter the text to analyze" mode={Mode} alert={showalertmsg} />}/>
           <Route path="/about"
              element={<About mode={Mode}/>}/>
